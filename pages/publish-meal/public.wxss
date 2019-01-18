@@ -1,0 +1,17 @@
+/* pages/public/public.wxss */
+
+.item-right {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.radio-group {
+  border-bottom: 1px solid #dedede;
+}
+
+.radio {
+  display: block;
+  border-top: 1px solid #dedede;
+  padding: 5px;
+  padding-left: 28rpx;
+}

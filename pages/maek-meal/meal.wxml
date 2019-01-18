@@ -1,19 +1,20 @@
 <!--pages/meal/meal.wxml-->
 
 <i-tabs current="{{ current }}" bindchange="handleChange">
-  <i-tab key="tab1" title="选项1"></i-tab>
-  <i-tab key="tab2" title="选项2"></i-tab>
-  <i-tab key="tab3" title="选项3"></i-tab>
+  <i-tab key="tab1" title="早餐"></i-tab>
+  <i-tab key="tab2" title="午餐"></i-tab>
+  <i-tab key="tab3" title="晚餐"></i-tab>
+  <i-tab key="tab4" title="加餐"></i-tab>
 </i-tabs>
 
 <i-panel>
   <i-cell-group>
     <i-cell title="配菜">
-      <input slot="footer" type="text" />
+      <input slot="footer" type="text" placeholder='请输入配菜' />
     </i-cell>
 
     <i-cell title="配料">
-      <input slot="footer" type="text" />
+      <input slot="footer" type="text" placeholder='请输入配料' />
     </i-cell>
 
     <i-cell title="卡路里(Kcal)">
@@ -29,14 +30,15 @@
     </i-cell>
 
     <view class='padding'>
-      配餐简介
+      <label>配餐简介</label>
+      <label>少于100字</label>
     </view>
     <textarea class='in' type="number" maxlength='80' placeholder="简介"></textarea>
 
     <view class='line'></view>
 
     <i-cell title="套餐名">
-      <input slot="footer" type="text" placeholder="套餐名" />
+      <input slot="footer" type="text" placeholder="请输入套餐名" />
     </i-cell>
 
     <view class='photo-item'>
@@ -44,7 +46,7 @@
       <image class='i'></image>
     </view>
 
-    <i-cell title="定价">
+    <i-cell title="定价(￥)">
       <input slot="footer" type="number" placeholder="价格" />
     </i-cell>
 

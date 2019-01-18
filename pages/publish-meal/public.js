@@ -6,8 +6,8 @@ Page({
    */
   data: {
     list: [{
-      title: "保存",
-      content: "仅保存不发布",
+        title: "保存",
+        content: "仅保存不发布",
         check: false
       },
       {
@@ -25,7 +25,8 @@ Page({
         content: "仅指定会员可见",
         check: false
       }
-    ]
+    ],
+    show: false
   },
 
   /**
@@ -84,13 +85,13 @@ Page({
 
   },
 
-  checkchange(e){
+  checkchange(e) {
 
   },
 
-  handleClick(e){
+  handleClick(e) {
     wx.navigateBack({
-      
+      delta: 2
     })
   }
 })

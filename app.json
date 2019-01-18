@@ -6,7 +6,7 @@
     "pages/mine/mine",
     "pages/cart/cart",
     "pages/details/details",
-    "pages/meal/meal",
+    "pages/maek-meal/meal",
     "pages/pay/pay",
     "pages/my-order/order-list",
     "pages/my-leader/lead-list",
@@ -14,7 +14,7 @@
     "pages/addr-list/addr-list",
     "pages/be-lead/be-lead",
     "pages/add-addr/add-addr",
-    "pages/public/public",
+    "pages/publish-meal/public",
     "pages/seach/seach"
   ],
   "window": {

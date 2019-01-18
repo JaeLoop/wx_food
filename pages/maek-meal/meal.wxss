@@ -1,29 +1,30 @@
 /* pages/meal/meal.wxss */
 
 .photo-item {
-  height: 6rem;
+  height: 220rpx;
   width: 100%;
   display: flex;
   align-items: center;
-  padding-left: 16px;
+  padding-left: 28rpx;
 }
 
 .padding {
-  padding-left: 16px;
+  padding-left: 28rpx;
   display: flex;
   height: 2rem;
   font-size: 15px;
-  text-align: center;
-  margin-top: 6px;
+  align-items: center;
+  margin-top: 10rpx;
 }
 
 .in {
   border: 1px solid #ddd;
-  height: 4rem;
+  height: 120rpx;
   width: 90%;
-  margin-left: 16px;
-  margin-right: 16px;
-  padding: 2px 2px 2px 2px;
+  margin-left: 28rpx;
+  margin-right: 28rpx;
+  margin-bottom: 28rpx;
+  padding: 2rpx 2rpx 2rpx 2rpx;
   font-size: 14px;
   max-lines: 3;
 }

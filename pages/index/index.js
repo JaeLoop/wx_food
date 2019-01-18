@@ -113,7 +113,7 @@ Page({
   //跳转配餐页面
   tomeal:function(e){
     wx.navigateTo({
-      url: '../meal/meal',
+      url: '../maek-meal/meal',
     })
   }
 })
