@@ -1,6 +1,6 @@
 <!--pages/lead-list/lead-list.wxml-->
 
-<view class='item'>
+<view class='item' bindtap='goLeadDetail'>
   <image src='../../images/holder.png'></image>
   <view class='part1'>
     <view>Liu_liang</view>
