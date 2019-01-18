@@ -1,0 +1,58 @@
+<!--pages/mine/mine.wxml-->
+<view class='top'>
+  <image class="avatar" src="../../images/avatar.svg"></image>
+  <view>
+    <text class='top-text'>张阿森纳（教练）</text>
+    <view class='top-view'>
+      <image src='../../images/phone.svg'></image>
+      <text>18922778899</text>
+    </view>
+  </view>
+</view>
+<view class='divider'></view>
+
+<image src='{{url}}' mode='scaleToFill' lazy-load='true' class='middle-image'></image>
+
+<view class='divider'></view>
+
+<view class='sub-btn'>
+  <label bindtap='toorder'>我的订单</label>
+  <image class='mer-next' src='../../images/next_s.svg'></image>
+</view>
+
+<view class='line'></view>
+
+<view class='sub-btn'>
+  <label bindtap='tolead'>我的教练</label>
+    <image class='mer-next' src='../../images/next_s.svg'></image>
+</view>
+
+<view class='divider'></view>
+
+<view class='sub-btn'>
+  <label bindtap='toalt'>@我的</label>
+  <image class='mer-next' src='../../images/next_s.svg'></image>
+</view>
+
+<view class='line'></view>
+
+<view class='sub-btn'>
+  <label bindtap='toaddress'>配送地址  </label>
+  <image class='mer-next' src='../../images/next_s.svg'></image>
+</view>
+
+<view class='divider'></view>
+
+<view class='sub-btn'>
+  <label bindtap='tobelead'>升级成为教练</label>
+  <image class='mer-next' src='../../images/next_s.svg'></image>
+</view>
+
+<view class='line'></view>
+
+<view class='sub-btn'>
+  <label bindtap='tostu'>我的学员</label>
+  <image class='mer-next' src='../../images/next_s.svg'></image>
+</view>
+
+<view class='divider'></view>

@@ -1,0 +1,57 @@
+/* pages/mine/mine.wxss */
+
+.top {
+  height: 280rpx;
+  align-items: center;
+  display: flex;
+  background: #2a82e4;
+  color: white;
+  font-size: 16px;
+}
+
+.avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: 64rpx;
+  margin-right: 64rpx;
+  border-radius: 50%;
+}
+
+.top-text {
+  font-weight: bold;
+  padding-left: 10rpx;
+}
+
+.top-view {
+  height: 50rpx;
+  display: flex;
+}
+
+.top view view image {
+  width: 24px;
+  height: 24px;
+}
+
+.middle-image {
+  height: 4rem;
+  background: #c3c3c3;
+}
+
+.sub-btn {
+  height: 80rpx;
+  display: flex;
+  padding-top: 10rpx;
+  padding-left: 28rpx;
+  align-items: center;
+  font-size: 14px;
+  color: #505050;
+}
+
+.mer-next {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+label{
+  width: 90%;
+}

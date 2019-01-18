@@ -1,0 +1,101 @@
+/**index.wxss**/
+
+.location {
+  display: flex;
+  height: 120rpx;
+  font-size: 14px;
+  align-items: center;
+}
+
+.l-label {
+  margin-left: 40rpx;
+}
+
+.l-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 32rpx;
+}
+
+.l-search {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 96rpx;
+  margin-right: 40rpx;
+}
+
+.l-btn {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  background: #1296db;
+  color: white;
+  font-size: 12px;
+  line-height: 90rpx;
+  text-align: center;
+}
+
+.banner {
+  border-radius: 0.5rem;
+}
+
+.bottom {
+  display: flex;
+}
+
+.left {
+  width: 30%;
+  height: 740rpx;
+  display: block;
+  background: #e5e5e5;
+}
+
+#left {
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.right {
+  width: 70%;
+  height: 620rpx;
+}
+
+#right {
+  display: flex;
+  height: 192rpx;
+  align-items: center;
+}
+
+.right-image {
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: 21rpx;
+}
+
+.right-text {
+  margin-left: 21rpx;
+}
+
+#right-l {
+  align-items: center;
+  font-size: 14px;
+  display: flex;
+}
+
+.right-praise {
+  width: 22rpx;
+  height: 22rpx;
+  margin-left: 20rpx;
+}
+
+.right-i {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 100rpx;
+  margin-top: 30rpx;
+}

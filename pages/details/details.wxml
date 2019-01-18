@@ -1,0 +1,87 @@
+<!--pages/details/details.wxml-->
+<image src='{{url}}'></image>
+
+<view class='view'>
+  <text class='title'>套餐1</text>
+  <view class='praise'>
+    <text class='praise-text'>100</text>
+    <image src='../../images/praise-detail.svg' class='praise-image'></image>
+  </view>
+</view>
+
+<text class='cal-text'>  123Kcal</text>
+
+<view class='view'>
+  <text class='name'>配餐：@Liu_xx(教练)</text>
+  <text class='price'>￥20.0</text>
+  <image class='price-i' src='../../images/add.svg'></image>
+</view>
+
+<view class='line'></view>
+
+<view id='content'>
+  说明文字说明文字说明文字说明文字说 明文字说明文字说明文字说明文字
+</view>
+
+<view class='line'></view>
+
+<view class='view'>
+  <view id='v2'>
+    <text class='t1'>123</text>
+    <view id='v3'>千卡</view>
+  </view>
+  <view id='v2'>
+    <text class='t1'>123</text>
+    <view id='v3'>碳水</view>
+  </view>
+  <view id='v2'>
+    <text class='t1'>123</text>
+    <view id='v3'>蛋白质</view>
+  </view>
+  <view id='v2'>
+    <text class='t1'>123</text>
+    <view id='v3'>脂肪</view>
+  </view>
+</view>
+
+<view style='height:1rem'></view>
+
+<view class='mer'>
+
+  <label class='mer-l'>食材</label>
+  <view class='mer-text' wx:for="{{list}}" wx:key="{{id}}">
+    <text style='width:80%'>{{item.name}}</text>
+    <text style='width:20%;text-align:right'>{{item.weight}}</text>
+  </view>
+</view>
+
+<view class='line'></view>
+
+<view class='mer'>
+  <label class='mer-l'>其他推荐
+    <image class='mer-next' src='../../images/next_s.svg'></image>
+  </label>
+
+  <scroll-view class='scroll' scroll-x>
+
+    <view class='v1' wx:for="{{list}}" wx:key="id">
+      <image src='{{item.url}}' class='mer-image'></image>
+      <view class='mer-content'>
+        <text class='mer-c-name'>套餐{{index}}</text>
+        <text class='mer-c-num'>{{item.n}}</text>
+        <image class='mer-c-i' src='../../images/mer_n.svg'></image>
+      </view>
+      <view class='mer-person'>{{item.p}}</view>
+    </view>
+  </scroll-view>
+</view>
+
+<view style='height:3rem'></view>
+
+<view class='footer'>
+  <view class='footer-left' bindtap='gocart'>
+    <image class='foot-l-i' src='../../images/cart_white.svg'></image>
+    <label class='foot-l-l'>加入购物车</label>
+  </view>
+  <view class='footer-right' bindtap='goPay'>去结账</view>
+</view>
