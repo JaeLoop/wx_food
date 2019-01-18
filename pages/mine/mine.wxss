@@ -52,6 +52,27 @@
   height: 40rpx;
 }
 
-label{
+label {
   width: 90%;
+}
+
+.me {
+  width: 80%;
+}
+
+.badge {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background: #ff5733;
+  color: white;
+  font-size: 14px;
+  margin-left: 32rpx;
+  text-align: center;
+}
+
+.b {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 32rpx;
 }

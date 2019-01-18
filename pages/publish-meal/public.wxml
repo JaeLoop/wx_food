@@ -1,17 +1,17 @@
 <!--pages/public/public.wxml-->
+<radio-group class="radio-group" bindchange="radioChange">
 
-<view wx:for="{{list}}" wx:key="index">
-  <view class='item'>
-    <checkbox-group bindchange='checkchange'>
-      <radio checked='{{item.check}}'></radio>
-    </checkbox-group>
+  <radio class="radio" wx:for-items="{{list}}" wx:key="name" value="{{item.title}}" checked="{{item.checked}}">
     <view class='item-right'>
       <view>{{item.title}}</view>
       <view>{{item.content}}</view>
     </view>
-  </view>
+  </radio>
+</radio-group>
 
-  <view class='l'></view>
+<view wx:if='{{show}}'>
+  123
+
 </view>
 
 <i-button bind:click="handleClick" long="true" class='suspend-btn'>完成</i-button>

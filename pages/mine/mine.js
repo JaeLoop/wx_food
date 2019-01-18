@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    url:"https://img.xiaopiu.com/userImages/img421816857205bc8.jpg"
+    url:"https://img.xiaopiu.com/userImages/img421816857205bc8.jpg",
+    hasmsg : 1
   },
 
   /**
@@ -66,13 +67,13 @@ Page({
 
   toorder:function(){
     wx.navigateTo({
-      url: '../order-list/order-list',
+      url: '../my-order/order-list',
     })
   },
 
   tolead: function () {
     wx.navigateTo({
-      url: '../lead-list/lead-list',
+      url: '../addr-list/lead-list',
     })
   },
 

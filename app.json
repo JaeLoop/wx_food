@@ -6,15 +6,15 @@
     "pages/mine/mine",
     "pages/cart/cart",
     "pages/details/details",
-    "pages/meal/meal",
+    "pages/maek-meal/meal",
     "pages/pay/pay",
-    "pages/order-list/order-list",
-    "pages/lead-list/lead-list",
+    "pages/my-order/order-list",
+    "pages/my-leader/lead-list",
     "pages/alt-list/alt-list",
     "pages/addr-list/addr-list",
     "pages/be-lead/be-lead",
     "pages/add-addr/add-addr",
-    "pages/public/public",
+    "pages/publish-meal/public",
     "pages/seach/seach",
     "pages/mine-myVegetables/mine-myVegetables"
   ],
@@ -31,8 +31,8 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "images/star.png",
-        "selectedIconPath": "images/star_s.png"
+        "iconPath":"images/star.png",
+        "selectedIconPath":"images/star_s.png"
       },
       {
         "pagePath": "pages/cart/cart",
@@ -40,7 +40,7 @@
         "iconPath": "images/cart.png",
         "selectedIconPath": "images/cart_s.png"
       },
-      {
+      { 
         "pagePath": "pages/mine/mine",
         "text": "我的",
         "iconPath": "images/tab_mine.png",
@@ -62,4 +62,5 @@
   "navigateToMiniProgramAppIdList": [
     "wxe5f52902cf4de896"
   ]
+
 }

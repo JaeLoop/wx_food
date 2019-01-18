@@ -75,7 +75,7 @@ Page({
 
   topublic(){
     wx.navigateTo({
-      url: '../public/public',
+      url: '../publish-meal/public',
     })
   },
 
