@@ -85,6 +85,12 @@ Page({
       })
     }
   },
+
+  goSeach:function(){
+    wx.navigateTo({
+      url: '../seach/seach',
+    })
+  },
   getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo

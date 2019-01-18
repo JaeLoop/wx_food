@@ -1,0 +1,41 @@
+.seachFrame {
+  width: 80%;
+  left: 14px;
+  top: 85px;
+  color: rgba(138, 138, 143, 1);
+  background-color: rgba(234, 235, 237, 1);
+  border-radius: 12px;
+  font-size: 28rpx;
+  padding: 5px 0 5px 2em;
+  text-align: left;
+  margin: 0 auto;
+}
+.seach-btn{
+  width: 70%;
+  font-size: 26rpx;
+  text-align: center;
+  padding: 5px 0;
+  color: #fff;
+  margin-top: 30px;
+  background-color: dodgerblue;
+  border-radius: 20px;
+}
+.swiper-tab {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.swiper-tab-item {
+  display: inline-block;
+  width: 20%;
+  padding: 5px 0;
+	color: rgba(80, 80, 80, 1);
+	border-radius: 16px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.active {
+  border: rgba(128, 128, 128, 1) solid 1px;
+}

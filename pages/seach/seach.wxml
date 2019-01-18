@@ -1,0 +1,12 @@
+<view>
+  <input class="seachFrame" type="text" value="" placeholder="请输入查询内容" />
+  <view class="swiper-tab">
+    <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">
+      套餐1
+    </view>
+    <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">
+      教练1
+    </view>
+  </view>
+  <button class="seach-btn">确定</button>
+</view>

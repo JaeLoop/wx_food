@@ -5,7 +5,7 @@
     <label>13800012345</label>
     <label class='l-label'>刘先生</label>
   </view>
-  <image class='l-search' src='../../images/search.png'></image>
+  <image class='l-search' bindtap='goSeach' src='../../images/search.png'></image>
   <label class='l-btn' bindtap='tomeal'>配餐</label>
 </view>
  
