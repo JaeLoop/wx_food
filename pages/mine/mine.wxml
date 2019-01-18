@@ -23,6 +23,13 @@
 <view class='line'></view>
 
 <view class='sub-btn'>
+  <label bindtap='tomyVegetables'>我的配菜</label>
+    <image class='mer-next' src='../../images/next_s.svg'></image>
+</view>
+
+<view class='line'></view>
+
+<view class='sub-btn'>
   <label bindtap='tolead'>我的教练</label>
     <image class='mer-next' src='../../images/next_s.svg'></image>
 </view>

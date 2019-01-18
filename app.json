@@ -15,7 +15,8 @@
     "pages/be-lead/be-lead",
     "pages/add-addr/add-addr",
     "pages/public/public",
-    "pages/seach/seach"
+    "pages/seach/seach",
+    "pages/mine-myVegetables/mine-myVegetables"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -30,8 +31,8 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath":"images/star.png",
-        "selectedIconPath":"images/star_s.png"
+        "iconPath": "images/star.png",
+        "selectedIconPath": "images/star_s.png"
       },
       {
         "pagePath": "pages/cart/cart",
@@ -39,7 +40,7 @@
         "iconPath": "images/cart.png",
         "selectedIconPath": "images/cart_s.png"
       },
-      { 
+      {
         "pagePath": "pages/mine/mine",
         "text": "我的",
         "iconPath": "images/tab_mine.png",

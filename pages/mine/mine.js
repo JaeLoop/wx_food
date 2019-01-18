@@ -96,5 +96,10 @@ Page({
   //我的学员
   tostu:function(){
 
+  },
+  tomyVegetables: function () {
+    wx.navigateTo({
+      url: '../mine-myVegetables/mine-myVegetables',
+    })
   }
 })
