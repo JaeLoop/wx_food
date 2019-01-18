@@ -66,13 +66,13 @@ Page({
 
   toorder:function(){
     wx.navigateTo({
-      url: '../order-list/order-list',
+      url: '../my-order/order-list',
     })
   },
 
   tolead: function () {
     wx.navigateTo({
-      url: '../lead-list/lead-list',
+      url: '../addr-list/lead-list',
     })
   },
 
