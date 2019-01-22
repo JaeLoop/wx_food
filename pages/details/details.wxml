@@ -1,5 +1,5 @@
 <!--pages/details/details.wxml-->
-<image src='{{url}}'></image>
+<image class='u-banner-img' src='{{url}}'></image>
 
 <view class='view'>
   <text class='title'>套餐1</text>

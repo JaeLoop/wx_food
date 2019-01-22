@@ -1,7 +1,7 @@
 <!--pages/lead-list/lead-list.wxml-->
 
 <view class='item' bindtap='goLeadDetail'>
-  <image src='../../images/holder.png'></image>
+  <image src='https://img.xiaopiu.com/userImages/img4245168572ffbc8.png'></image>
   <view class='part1'>
     <view>Liu_liang</view>
     <view>从事健身行业：5年</view>

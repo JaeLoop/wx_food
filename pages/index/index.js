@@ -102,6 +102,7 @@ Page({
   //类型点击回调
   tabselect: function(e) {
     console.log(e)
+
   },
   //套餐点击回调
   mealselect: function(e) {

@@ -1,2 +1,40 @@
 <!--pages/mine-myVegetables/mine-myVegetables.wxml-->
+<!-- tab切换导航 -->
+<view>
+  <i-tabs current="{{ current }}" bindchange="handleChange">
+    <i-tab key="tab1" title="选项1"></i-tab>
+    <i-tab key="tab2" title="选项2"></i-tab>
+  </i-tabs>
+</view>
+<!-- tab切换导航 -->
+<!-- 配餐内容 -->
+<view class='g-content-box'>
+  <!-- 已发布 -->
+    <view class='g-content'>
+    
+      <view class='m-content-list'>
+      <!-- 缩略图 -->
+        <view class='m-list-img'>
+          <image src='https://img.xiaopiu.com/userImages/img429916857679628.jpg'></image>
+        </view>
+      <!--/ 缩略图 -->
+        <view class='m-list-text z-font-style'>
+          <i-icon class='u-delete' type="trash_fill" size="28" color='rgba(153, 153, 153, 1)'/>
+          <rich-text class='title'>营养增肌餐</rich-text>
+          <view class='u-line-height'></view>
+          <rich-text>早餐-减脂餐</rich-text>
+          <rich-text>所有人可见</rich-text>
+          <rich-text class='u-light-text'>发布时间：2019.01.01</rich-text>
+          <rich-text class='title'>￥：15</rich-text>
+        </view>
+      </view>
+    </view>
+  <!-- /已发布 -->
 
+  <!-- 仅保存 -->
+    <view>
+    
+    </view>
+  <!-- /仅保存 -->
+</view>
+<!-- /配餐内容 -->

@@ -1,1 +1,45 @@
 /* pages/mine-myVegetables/mine-myVegetables.wxss */
+.cline{
+  clear: both;
+}
+.z-font-style{
+  color: rgba(80, 80, 80, 1);
+  font-size: 28rpx;
+}
+.title{
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.g-content-box{
+  padding-right: 32rpx;
+  padding-left: 32rpx;
+  padding-top: 32rpx;
+}
+.m-list-img{
+  width:34%;
+  height: 260rpx;
+  float: left;
+}
+.m-list-text{
+  width:64%;
+  height: 260rpx;
+  float: left;
+  overflow: hidden;
+  padding-left: 2%;
+  position: relative;
+}
+.m-list-img image{
+  width: 100%;
+  height: 100%;
+}
+.u-line-height{
+  height: 20rpx;
+}
+.u-light-text{
+  line-height: 66rpx;
+}
+.u-delete{
+  position: absolute;
+  right: 0rpx;
+}

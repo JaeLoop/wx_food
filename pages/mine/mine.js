@@ -73,7 +73,7 @@ Page({
 
   tolead: function () {
     wx.navigateTo({
-      url: '../addr-list/lead-list',
+      url: '../my-leader/lead-list',
     })
   },
 

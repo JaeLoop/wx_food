@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    url: "",
+    url: "https://img.xiaopiu.com/userImages/img419216857093218.png",
     list: [{
         id: 1,
         name: "鸡蛋",

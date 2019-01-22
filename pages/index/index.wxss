@@ -99,3 +99,6 @@
   margin-left: 100rpx;
   margin-top: 30rpx;
 }
+.u-swiper-image{
+  width: 100%;
+}

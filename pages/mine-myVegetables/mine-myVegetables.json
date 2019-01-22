@@ -1,4 +1,15 @@
 {
   "usingComponents": {},
-  "navigationBarTitleText": "我的配菜"
+  "navigationBarTitleText": "我的配菜",
+  "usingComponents": {
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index"
+  },
+  "usingComponents": {
+    "i-tabs": "../../dist/tabs/index",
+    "i-tab": "../../dist/tab/index"
+  },
+  "usingComponents": {
+    "i-icon": "../../dist/icon/index"
+  }
 }

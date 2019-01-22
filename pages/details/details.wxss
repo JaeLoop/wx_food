@@ -102,12 +102,15 @@
   padding-right: 28rpx;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .mer-next {
+  position: absolute;
   width: 40rpx;
   height: 40rpx;
-  margin-left: 540rpx;
+  right: 8rpx;
+  top: 9rpx;
 }
 
 .mer-text {
@@ -187,4 +190,7 @@
   text-align: center;
   line-height: 2.5rem;
   font-size: 14px;
+}
+.u-banner-img{
+  width: 100%;
 }
