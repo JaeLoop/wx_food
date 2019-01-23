@@ -6,7 +6,7 @@
     <label class='l-label'>刘先生</label>
   </view>
   <image class='l-search' bindtap='goSeach' src='../../images/search.png'></image>
-  <label class='l-btn' bindtap='tomeal'>配餐</label>
+  <!-- <label class='l-btn' bindtap='tomeal'>配餐</label> -->
 </view>
  
 <swiper indicator-dots="true" autoplay="true" interval="3500" duration="1500">

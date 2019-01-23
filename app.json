@@ -16,7 +16,8 @@
     "pages/add-addr/add-addr",
     "pages/publish-meal/public",
     "pages/seach/seach",
-    "pages/mine-myVegetables/mine-myVegetables"
+    "pages/mine-myVegetables/mine-myVegetables",
+    "pages/my-leader-detail/my-leader-detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

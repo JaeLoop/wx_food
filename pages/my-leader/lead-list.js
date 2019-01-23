@@ -63,10 +63,10 @@ Page({
   onShareAppMessage: function () {
 
   },
-
+  //我的教练详情
   goLeadDetail() {
     wx.navigateTo({
-      url: '../lead-detail/lead-detail',
+      url: '../my-leader-detail/my-leader-detail',
     })
   }
 })

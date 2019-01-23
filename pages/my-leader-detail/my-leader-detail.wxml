@@ -1,0 +1,49 @@
+<!--pages/lead-detail/lead-detail.wxml-->
+<view class='g-lead-box'>
+  <!-- 头像 -->
+  <view class='m-lead-hd'>
+    <image class='u-lead-headImg' src="{{srcs}}" mode='scaleToFill'></image>
+    <view class='m-btn-box'>
+      <button class='u-lead-btnRight' bindtap='collection'>给他发消息</button>
+      <button class='u-lead-btnRight' bindtap='collection'>浏览他的配菜</button>
+      <button class='u-lead-btnRight' bindtap='collection'>不在跟随此教练</button>
+    </view>
+  </view>
+  <!--/ 头像 -->
+  <!-- 文字部分 -->
+  <view class='m-lead-content'>
+    <rich-text class='u-text-title'>{{name}}</rich-text>
+    <rich-text class='z-font-style'>{{statueLeader}}</rich-text>
+    <view class='m-text-content z-font-style'>
+      <rich-text>联系电话：{{phone}}</rich-text>
+      <rich-text>从事健身行业：{{years}}年</rich-text>
+      <rich-text>拥有学员：{{studentNumber}}名</rich-text>
+      <rich-text>毕业院校：{{graduationSchool}}</rich-text>
+      <rich-text>专属健身房：{{privateRoom}}</rich-text>
+      <rich-text>教练专属证件号：{{number}}</rich-text>
+      <rich-text class='u-text-last'>.........</rich-text>
+    </view>
+  </view>
+  <!-- /文字部分 -->
+  <!-- 资格证部分 -->
+  <view class='m-lead-certificate z-font-style'>
+    <view>资格证</view>
+    <view class="m-img-box">
+      <view wx:for="{{qualificationCertificate}}" wx:for-item="item">
+        <image src='{{item.img}}'></image>
+      </view>
+    </view>
+  </view>
+  <!-- /资格证部分 -->
+  <!-- 个人照片 -->
+  <view class='m-lead-certificate z-font-style'>
+    <view>个人照片</view>
+    <view class="m-img-box">
+      <view wx:for="{{privateImg}}" wx:for-item="item">
+        <image src='{{item.img}}'></image>
+      </view>
+    </view>
+  </view>
+  <!-- /个人照片 -->
+</view>
+

@@ -7,9 +7,10 @@
 
     <view class='item'>
       <label>性别</label>
-      <radio-group class="group" bindchange="radioChange">
-        <i-radio value='先生' checked="{{checked}}"></i-radio>
-        <i-radio value='女士' checked="{{checked}}"></i-radio>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}" wx:key="{{item.id}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}" /> {{item.value}}
+        </label>
       </radio-group>
     </view>
 
@@ -26,7 +27,7 @@
     <i-cell title="门牌号">
       <input slot="footer" type="number" placeholder="如2楼2门201" />
     </i-cell>
-    
+
     <view class='line'></view>
 
     <view class='item'>
@@ -39,7 +40,13 @@
     <view class='line'></view>
 
     <view class='item'>
-      <i-radio value='设为默认地址'></i-radio>
+
+      <checkbox-group bindchange="checkboxChange">
+  <label class="checkbox">
+    <checkbox value="设为默认地址" />
+    设为默认地址
+  </label>
+</checkbox-group>
     </view>
   </i-cell-group>
 </i-panel>

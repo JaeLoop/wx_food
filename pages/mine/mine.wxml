@@ -2,7 +2,7 @@
 <view class='top'>
   <image class="avatar" src="../../images/avatar.svg"></image>
   <view>
-    <text class='top-text'>张阿森纳（教练）</text>
+    <text class='top-text'>张阿森纳（会员）</text>
     <view class='top-view'>
       <image src='../../images/phone.svg'></image>
       <text>18922778899</text>
@@ -11,7 +11,7 @@
 </view>
 <view class='divider'></view>
 
-<image src='{{url}}' mode='scaleToFill' lazy-load='true' class='middle-image'></image>
+<image  src='{{url}}' mode='scaleToFill' lazy-load='true' class='middle-image'></image>
 
 <view class='divider'></view>
 
@@ -22,12 +22,12 @@
 
 <view class='line'></view>
 
-<view class='sub-btn'>
+<!-- <view class='sub-btn'>
   <label bindtap='tomyVegetables'>我的配菜</label>
     <image class='mer-next' src='../../images/next_s.svg'></image>
 </view>
 
-<view class='line'></view>
+<view class='line'></view> -->
 
 <view class='sub-btn'>
   <label bindtap='tolead'>我的教练</label>

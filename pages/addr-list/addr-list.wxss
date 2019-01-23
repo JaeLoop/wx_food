@@ -1,16 +1,30 @@
 /* pages/addr-list/addr-list.wxss */
+.z-font-style{
+  color: rgba(80, 80, 80, 1);
+  font-size: 28rpx;
+}
+.title{
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 6rpx;
+}
 
 .top{
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 20rpx;
 }
-
+.u-title{
+  color: rgba(80, 80, 80, 1);
+  font-size: 28rpx;
+}
 .item {
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
   align-items: center;
   justify-content: center;
+  padding-bottom: 10rpx;
 }
 
 .item-left{
@@ -49,4 +63,17 @@
 image{
   width: 12px;
   height: 12px;
+}
+.u-line{
+  clear: both;
+  height: 1rpx;
+  background-color: rgb(128, 126, 126);
+}
+.u-line{
+  height: 1rpx;
+  background:rgba(153, 153, 153, 1);
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  margin-left: 16rpx;
+  margin-right: 16rpx
 }

@@ -70,7 +70,7 @@ Page({
       url: '../my-order/order-list',
     })
   },
-
+  //我的教练
   tolead: function () {
     wx.navigateTo({
       url: '../my-leader/lead-list',

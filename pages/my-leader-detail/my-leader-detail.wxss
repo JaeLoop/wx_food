@@ -1,0 +1,64 @@
+/* pages/lead-detail/lead-detail.wxss */
+.z-font-style{
+  color: rgba(80, 80, 80, 1);
+  font-size: 28rpx;
+}
+
+.g-lead-box{
+  padding: 42rpx 80rpx 42rpx 80rpx;
+}
+.u-lead-headImg{
+  width: 168rpx;
+  height: 168rpx;
+}
+.m-btn-box{
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+}
+.u-lead-btnRight{
+  margin-bottom: 26rpx;
+  width: 254rpx;
+  height: 66rpx;
+  right: 0rpx;
+  line-height: 66rpx;
+  font-size: 26rpx;
+  background-color: rgba(0, 186, 173, 1);
+  border-radius: 33rpx;
+  color: #fff;
+}
+.m-lead-hd{
+  position: relative;
+}
+.m-lead-content{
+  font-size: 28rpx;
+}
+.m-lead-content rich-text{
+  margin-top: 12rpx;
+}
+.u-text-title{
+  font-weight: bold;
+}
+.m-text-content{
+  margin-top: 34rpx;
+}
+.m-img-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 12rpx;
+}
+.m-img-box view{
+  width:184rpx;
+  height:180rpx;
+  margin-right: 13rpx;
+  margin-bottom: 13rpx;
+}
+.m-img-box image{
+  width: 100%;
+  height: 100%;
+}
+.m-lead-certificate{
+  margin-bottom: 26rpx;
+  margin-top: 12rpx;
+}
