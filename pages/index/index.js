@@ -101,7 +101,8 @@ Page({
   },
   //类型点击回调
   tabselect: function(e) {
-    console.log(e)
+    console.log(e);
+    console.log(e.currentTarget.dataset.index);
 
   },
   //套餐点击回调
@@ -115,6 +116,11 @@ Page({
   tomeal:function(e){
     wx.navigateTo({
       url: '../maek-meal/meal',
+    })
+  },
+  toLeader:function(){
+    wx.navigateTo({
+      url: '../my-leader/lead-list?location=1',
     })
   }
 })

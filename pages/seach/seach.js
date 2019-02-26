@@ -11,6 +11,8 @@ Page({
     //点击切换
     clickTab: function (e) {
       var that = this;
+      console.log(e);
+      console.log(this.data.currentTab);
       if (this.data.currentTab === e.target.dataset.current) {
         return false;
       } else {

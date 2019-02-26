@@ -1,0 +1,44 @@
+/* pages/add-addr/add-addr.wxss */
+.tag{
+  padding: 2px 12px 2px 12px;
+  border: 1px gainsboro ;
+  border-radius: 30%;
+}
+
+.group{
+  display: flex;
+}
+
+.item{
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  position: relative;
+}
+
+.tag-title{
+  width: 40%;
+}
+.active {
+  border: rgba(128, 128, 128, 1) solid 1px;
+  border-radius:36rpx;
+}
+.m-radio-box{
+  position: absolute;
+  right:58rpx;
+
+}
+.m-bottom-box{
+  display: flex;
+  bottom: 0rpx;
+  position: absolute;
+  bottom: 0rpx;
+  left: 50%;
+  margin-left: -309rpx;
+}
+.m-bottom-box button{
+  display: inline-block;
+  width:264rpx;
+}

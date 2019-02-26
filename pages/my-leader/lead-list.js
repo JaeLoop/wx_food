@@ -5,14 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    location:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.data.location=options.location;
+    console.log(this.data.location);
   },
 
   /**
@@ -26,7 +27,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    console.log();
   },
 
   /**
@@ -65,8 +66,15 @@ Page({
   },
   //我的教练详情
   goLeadDetail() {
-    wx.navigateTo({
-      url: '../my-leader-detail/my-leader-detail',
-    })
+    if(this.data.location =="1"){
+      wx.navigateTo({
+        url: '../lead-detail/lead-detail',
+      })
+    }else{
+      wx.navigateTo({
+        url: '../my-leader-detail/my-leader-detail',
+      })
+    }
+    
   }
 })

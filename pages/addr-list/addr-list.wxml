@@ -3,7 +3,7 @@
 <view class='top u-title'>我的收货地址</view>
 <!-- 循环体 -->
 <view class='g-content'>
-  <view class='item z-font-style' bindtap='select'>
+  <view class='item z-font-style'>
     <view class='item-left'>
       <view class='title'>天津市西青区花园路100号2楼1001</view>
       <view class='content'>
@@ -12,7 +12,7 @@
         <label class='default'>默认地址</label>
       </view>
     </view>
-    <view class='item-right'>
+    <view class='item-right' bindtap='goRevice'>
       <image src='../../images/pen.png'></image>
     </view>
   </view>

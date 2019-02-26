@@ -6,7 +6,7 @@ Page({
    */
   data: {
     check: false,
-
+    currentTab: 0,
     items: [{
         name: '先生',
         value: '先生'
@@ -86,5 +86,18 @@ Page({
     wx.navigateBack({
       delta: 2,
     })
+  },
+  pitchOn(e){
+    console.log(e.currentTarget.id)
+    var that = this;
+    console.log(e);
+    console.log(this.data.currentTab);
+    if (this.data.currentTab === e.target.dataset.current) {
+      return false;
+    } else {
+      that.setData({
+        currentTab: e.target.dataset.current
+      })
+    }
   }
 })

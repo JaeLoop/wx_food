@@ -70,9 +70,9 @@ Page({
     })
   },
 
-  select(){
-    wx.navigateBack({
-      
+  goRevice(){
+    wx.navigateTo({
+      url: '../change-addr/change-addr',
     })
   }
 })

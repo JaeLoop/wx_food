@@ -25,7 +25,7 @@
   <view class='m-lead-certificate z-font-style'>
     <view>资格证</view>
     <view class="m-img-box">
-      <view wx:for="{{qualificationCertificate}}" wx:for-item="item">
+      <view wx:for="{{qualificationCertificate}}" wx:for-item="item" wx:key="{{index}}">
         <image src='{{item.img}}'></image>
       </view>
     </view>
@@ -35,7 +35,7 @@
   <view class='m-lead-certificate z-font-style'>
     <view>个人照片</view>
     <view class="m-img-box">
-      <view wx:for="{{privateImg}}" wx:for-item="item">
+      <view wx:for="{{privateImg}}" wx:for-item="item" wx:key="{{index}}">
         <image src='{{item.img}}'></image>
       </view>
     </view>

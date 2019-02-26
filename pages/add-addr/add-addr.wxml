@@ -6,8 +6,8 @@
     </i-cell>
 
     <view class='item'>
-      <label>性别</label>
-      <radio-group class="radio-group" bindchange="radioChange">
+      <label>性别</label> 
+      <radio-group class="radio-group m-radio-box" bindchange="radioChange">
         <label class="radio" wx:for="{{items}}" wx:key="{{item.id}}">
           <radio value="{{item.name}}" checked="{{item.checked}}" /> {{item.value}}
         </label>
@@ -32,9 +32,9 @@
 
     <view class='item'>
       <label class='tag-title'>标签</label>
-      <label class='tag'>公司</label>
-      <label class='tag'>家</label>
-      <label class='tag'>学校</label>
+      <label class="tag {{currentTab==0?'active':''}}" bindtap='pitchOn' data-current="0">公司</label>
+      <label class="tag {{currentTab==1?'active':''}}" bindtap='pitchOn' data-current="1">家</label>
+      <label class="tag {{currentTab==2?'active':''}}" bindtap='pitchOn' data-current="2">学校</label>
     </view>
 
     <view class='line'></view>
